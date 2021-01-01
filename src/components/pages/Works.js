@@ -12,9 +12,9 @@ const Works = () => {
                     </div>
                 </center>
                 <div className="row">
-                {projects && projects.map((x) => 
-                <Project id={x.id} url={x.url} name={x.name} skills={x.skills}/>
-                )}
+                    {projects && projects.map((x, ind) =>
+                        <Project key={ind} id={x.id} url={x.url} name={x.name} skills={x.skills} />
+                    )}
                 </div>
             </div>
 
@@ -25,8 +25,8 @@ const Works = () => {
                     </div>
                 </center>
                 <div className="row">
-                    {miscellaneous && miscellaneous.map((x) => 
-                    <Project id={x.id} url={x.url} name={x.name} />
+                    {miscellaneous && miscellaneous.map((x, ind) =>
+                        <Project key={ind} id={x.id} url={x.url} name={x.name} />
                     )}
                 </div>
             </div>

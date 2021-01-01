@@ -1,47 +1,63 @@
-
 /* Add your profile image here */
-.Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+
+.Photo {
+    background-image: url('https://media-exp1.licdn.com/dms/image/C4D03AQES8xH7zn0Zjg/profile-displayphoto-shrink_400_400/0/1590634682430?e=1614816000&v=beta&t=KNpSNBTe57Jfd-Che_7kbztK0Q3F0BTJKi7BfwzF5pM');
 }
+
+
 /* Projects Photo */
-#project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
-    cursor: none;    
-}
-#project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+
+#project1 {
+    background-image: url('../images/Amazon-clone.png');
     cursor: none;
 }
-#project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+
+#project2 {
+    background-image: url('../images/todolist-clone.png');
     cursor: none;
 }
-#project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
+
+#project3 {
+    background-image: url('../images/DigiCounter.png');
     cursor: none;
 }
-#project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+
+#project4 {
+    background-image: url('../images/personify.png');
     cursor: none;
 }
-#project6{
+
+#project5 {
+    background-image: url('../images/covid-19-analysis.png');
+    cursor: none;
+}
+
+#project6 {
     background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
     cursor: none;
 }
+
+
 /* Miscelaneous Activities photo */
-#misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+
+#misc1 {
+    background-image: url('../images/budget_homescreen.png');
     cursor: none;
 }
-#misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+
+#misc2 {
+    background-image: url('../images/restourantscreen.png');
     cursor: none;
 }
-#misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+
+#misc3 {
+    background-image: url('../images/frenzy_home_screen.png');
     cursor: none;
 }
+
+
 /* Contact form parallax effect image */
-.parallax{
+
+.parallax {
     background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
