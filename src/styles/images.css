@@ -7,12 +7,17 @@
 
 /* Projects Photo */
 
-#project1 {
+#project6 {
+    background-image: url('../images/Home-Page.png');
+    cursor: none;
+}
+
+#project5 {
     background-image: url('../images/Amazon-clone.png');
     cursor: none;
 }
 
-#project2 {
+#project4 {
     background-image: url('../images/todolist-clone.png');
     cursor: none;
 }
@@ -22,18 +27,13 @@
     cursor: none;
 }
 
-#project4 {
+#project2 {
     background-image: url('../images/personify.png');
     cursor: none;
 }
 
-#project5 {
+#project1 {
     background-image: url('../images/covid-19-analysis.png');
-    cursor: none;
-}
-
-#project6 {
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
     cursor: none;
 }
 

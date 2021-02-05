@@ -39,17 +39,26 @@ const skillsBar = [
 // Edit your projects, its name, your skills used to make it, and the url. 
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
+// then also Add their images in css styles
+// and images/folder
 const projects = [
     {
+        // Add image in './styles/images.css' in #project6
+        id: "project6",
+        name: "Primus Classroom",
+        skills: ["Nextjs, Redux, MaterialUI, React-Dnd, firebase auth & firestore, firebase hosting & cloud functions"],
+        url: "https://primusclassroom.com"
+    },
+    {
         // Add image in './styles/images.css' in #project1
-        id: "project1",
+        id: "project5",
         name: "Amazon Web Clone",
         skills: ["HTML5, CSS3, NextJS, ReactJS, firebase, NOSQL, Stripe payment"],
         url: "https://amazon-clone-nextjs.vercel.app/",
     },
     {
         // Add image in './styles/images.css' in #project2
-        id: "project2",
+        id: "project4",
         name: "Todo list",
         skills: ["HTML5, CSS3, NextJS, ReactJS, Mongoose, NOSQL,"],
         url: "https://react-nextjs-todo-list.vercel.app/"
@@ -63,25 +72,18 @@ const projects = [
     },
     {
         // Add image in './styles/images.css' in #project4
-        id: "project4",
+        id: "project2",
         name: "Personify - Personality Prediction",
         skills: ["Python, DataScience, Machine Learning "],
         url: "https://github.com/Syedzainjeelani/personify_dsa"
     },
     {
         // Add image in './styles/images.css' in #project5
-        id: "project5",
+        id: "project1",
         name: "Covid-19 Analysis",
         skills: ["Python, Data Analysis, Data Visualization"],
         url: "https://github.com/Syedzainjeelani/covid-19-analysis"
     },
-    // {
-    //     // Add image in './styles/images.css' in #project6
-    //     id: "project6",
-    //     name: "Project 6",
-    //     skills: ["HTML, CSS, JS"],
-    //     url: "https://github.com/kaustubhai"
-    // },
 ]
 // Edit your Miscellaneous Activities, its name and the url. 
 // You can omit freely anything if you dont have it
