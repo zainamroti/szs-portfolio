@@ -5,35 +5,35 @@ const header = {
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const about = {
-    paragraph: "Hi.\n I am a final year Software Engineering student a flutter, Reactjs & python developer, based in Pakistan. I'm passionate for cross platform development and like to create mobile & web apps. I love automating stuff with python and have a keen interest in business & machine learning. I like learning and exploring new skills and working with the latest technologies. I am currently working on Flutter and Nextjs to create some beautiful mobile & web apps."
+    paragraph: "Hi.\n I am a Software Engineer, a Mobile and web developer working with React/Nextjs & Flutter, I'm based in Pakistan and have a passion for software development and like to create mobile & web apps. I love automating stuff and have a keen interest in business & blockchain tech. I like reading, learning and exploring new skills and working with the latest technologies. I am currently working on Flutter and Nextjs to create some beautiful mobile & web apps and looking into blockchain tech to create apps for the web3 as well."
 }
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
     {
-        name: "Flutter & Dart",
-        value: 82
+        name: "React/Next JS",
+        value: 50
     }, {
-        name: "React & Next JS",
-        value: 75
+        name: "Flutter & Dart",
+        value: 50
+    }, {
+        name: "Web3 & Ethers JS for Blockchain",
+        value: 50
     }, {
         name: "Node & Express JS",
-        value: 70
+        value: 50
+    }, {
+        name: "Firebase & Cloud functions",
+        value: 50
+    }, {
+        name: "Mongodb NOSQL & SQL",
+        value: 50
     }, {
         name: "Python & Data Analysis",
-        value: 80
-    }, {
-        name: "Firebase",
-        value: 75
-    }, {
-        name: "Mongoose (NOSQL)",
-        value: 65
-    }, {
-        name: "SQL",
-        value: 60
+        value: 50
     }, {
         name: "Adobe Photoshop & Adobe XD",
-        value: 65
+        value: 50
     },
 ]
 // Edit your projects, its name, your skills used to make it, and the url. 
@@ -42,6 +42,13 @@ const skillsBar = [
 // then also Add their images in css styles
 // and images/folder
 const projects = [
+    {
+        // Add image in './styles/images.css' in #project7
+        id: "project7",
+        name: "Caketools",
+        skills: ["Nextjs/React.js, Typescript, Redux, MaterialUI, Blockchain BSC APIs, ethersjs, Nodejs, firebase hosting & cloud functions ++"],
+        url: "https://caketools-e4946.web.app/"
+    },
     {
         // Add image in './styles/images.css' in #project6
         id: "project6",
