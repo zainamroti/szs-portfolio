@@ -12,28 +12,28 @@ const about = {
 const skillsBar = [
     {
         name: "React/Next JS",
-        value: 50
+        value: 0
     }, {
         name: "Flutter & Dart",
-        value: 50
+        value: 0
     }, {
         name: "Web3 & Ethers JS for Blockchain",
-        value: 50
+        value: 0
     }, {
         name: "Node & Express JS",
-        value: 50
+        value: 0
     }, {
         name: "Firebase & Cloud functions",
-        value: 50
+        value: 0
     }, {
         name: "Mongodb NOSQL & SQL",
-        value: 50
+        value: 0
     }, {
         name: "Python & Data Analysis",
-        value: 50
+        value: 0
     }, {
         name: "Adobe Photoshop & Adobe XD",
-        value: 50
+        value: 0
     },
 ]
 // Edit your projects, its name, your skills used to make it, and the url. 
@@ -126,9 +126,9 @@ const contact = {
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-    github: 'https://github.com/Syedzainjeelani',
-    facebook: 'https://web.facebook.com/syedzain.ulabidin.35/',
-    linkedin: 'https://www.linkedin.com/in/syed-zain-jeelani-011/',
+    github: 'https://github.com/zainamroti',
+    facebook: 'https://web.facebook.com/zainamroti',
+    linkedin: 'https://www.linkedin.com/in/zainamroti',
     instagram: 'https://www.instagram.com/zainamroti/',
     resume: process.env.PUBLIC_URL + '/LinkdIn-Resume-Syed-Zain-Jeelani.pdf'
 }
