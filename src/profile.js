@@ -5,7 +5,7 @@ const header = {
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const about = {
-    paragraph: "Hi.\n I am a Software Engineer, a Mobile and web developer working with React/Nextjs & Flutter, I'm based in Pakistan and have a passion for software development and like to create mobile & web apps. I love automating stuff and have a keen interest in business & blockchain tech. I like reading, learning and exploring new skills and working with the latest technologies. I am currently working on Flutter and Nextjs to create some beautiful mobile & web apps and looking into blockchain tech to create apps for the web3 as well."
+    paragraph: "Hi, I am a Software Engineer, \na mobile and web developer working with Flutter & React/Next.js to create beautiful mobile & web apps.\nI have worked on a ton of projects for practice and have built production-ready web & mobile apps for clients. I have also worked on flutter apps and have published one on the play store as well. \nI believe in the problem-solving approach, to look at my projects and solve their problems not just in a technical way but in ways that are most efficient and user friendly. I have experience with; \n1. React.js & Next.js website development: Material-UI, Chakra-UI, tailwindcss, redux, redux-toolkit, javascript, CSS/HTML, a little bit of typescript and mongodb, firebase - firestore, cloud funcitons and much more. \n2. Flutter mobile app development: Provider, Riverpod, Getx state management, complete Flutter UI design and animations, google maps, push notifications, firebase, node.js ++ \nHowever, I try to create value by solving the problems at hand, and not be dependent on technologies used. I try to learn and adapt according to the situation and get the job done beautifully. \nI try to utilize promising methods and strategies from software engineering that ensure the apps are developed in the most effective and scalable way possible."
 }
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -23,16 +23,16 @@ const skillsBar = [
         name: "Node & Express JS",
         value: 0
     }, {
-        name: "Firebase & Cloud functions",
+        name: "Firebase, GCP & Cloud functions",
         value: 0
     }, {
-        name: "Mongodb NOSQL & SQL",
+        name: "Mongodb NOSQL & SQL/Postgresql",
         value: 0
     }, {
         name: "Python & Data Analysis",
         value: 0
     }, {
-        name: "Adobe Photoshop & Adobe XD",
+        name: "Figma & Adobe XD",
         value: 0
     },
 ]
@@ -42,6 +42,34 @@ const skillsBar = [
 // then also Add their images in css styles
 // and images/folder
 const projects = [
+    {
+        // Add image in './styles/images.css' in #project11
+        id: "project11",
+        name: "Jobit Technologies",
+        skills: ["React.js, Node.js, Javascript, Express.js, GCP, Postgresql, Scss, Twilio, Socket.io, Stripe++"],
+        url: "https://jobit.world/"
+    },
+    {
+        // Add image in './styles/images.css' in #project10
+        id: "project10",
+        name: "Gallopeat Rider App",
+        skills: ["Flutter, Dart, GetX, Auth, API-Integration, Google-maps Push-Notifications, Menu-Management, Chat-Bot support++"],
+        url: "https://devpost.com/software/gallopeat-rider-app"
+    },
+    {
+        // Add image in './styles/images.css' in #project9
+        id: "project9",
+        name: "Gallopeat Restaurant App",
+        skills: ["Flutter, Dart, GetX, Auth, API-Integration, Push-Notifications, Menu-Management, Chat-Bot support++"],
+        url: "https://devpost.com/software/gallopeat-restaurant-app"
+    },
+    {
+        // Add image in './styles/images.css' in #project8
+        id: "project8",
+        name: "Gallopeat User App",
+        skills: ["Flutter, Dart, GetX, Google-maps, Auth, API-Integration, Push-Notifications, PayPal, Chat support++"],
+        url: "https://devpost.com/software/gallopeat-user-app"
+    },
     {
         // Add image in './styles/images.css' in #project7
         id: "project7",
@@ -130,7 +158,7 @@ const social = {
     facebook: 'https://web.facebook.com/zainamroti',
     linkedin: 'https://www.linkedin.com/in/zainamroti',
     instagram: 'https://www.instagram.com/zainamroti/',
-    resume: process.env.PUBLIC_URL + '/LinkdIn-Resume-Syed-Zain-Jeelani.pdf'
+    resume: process.env.PUBLIC_URL + '/Latest-Resume-Syed-Zain-Jeelani.pdf'
 }
 // Dont change anything here
 export { header, about, skillsBar, projects, miscellaneous, contact, social }

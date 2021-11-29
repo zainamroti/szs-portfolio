@@ -7,6 +7,26 @@
 
 /* Projects Photo */
 
+#project11 {
+    background-image: url('../images/Jobit-live.png');
+    cursor: none;
+}
+
+#project10 {
+    background-image: url('../images/gallopeat-rider.png');
+    cursor: none;
+}
+
+#project9 {
+    background-image: url('../images/gallopeat-restaurant.png');
+    cursor: none;
+}
+
+#project8 {
+    background-image: url('../images/gallopeat-user.png');
+    cursor: none;
+}
+
 #project7 {
     background-image: url('../images/Caketools.png');
     cursor: none;

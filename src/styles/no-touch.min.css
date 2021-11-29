@@ -115,9 +115,17 @@ body {
     background-color: #000
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
 .about-text {
     width: 80%;
-    padding: 2%
+    padding: 1%;
+    text-align: start;
 }
 
 .red-line {
@@ -127,7 +135,7 @@ body {
 
 .About-title-box {
     box-sizing: border-box;
-    width: 50%;
+    /* width: 100%; */
     padding-bottom: 5px;
     border-bottom: solid 2pxvar(--primary-color);
     margin-bottom: 15px

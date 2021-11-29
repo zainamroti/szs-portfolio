@@ -9,13 +9,13 @@ const About = () => {
         <div id="about" className="effect2">
             <div data-aos="zoom-in-up" data-aos-once="true" className="row">
                 <div className="col-12 d-none d-md-block offset-md-1 col-md-4 Photo" id="not"></div>
-                <div className="col-12 offset-md-1 col-md-6 about">
+                <div className="col-12 offset-md-1 col-md-6 col-lg-12 about">
                     <div className="About-title-box">
                         <h1 id="About" className="red-line">About me</h1>
                     </div>
-                    <p className="lead about-text">
+                    <div className="about-text">
                         {about.paragraph}
-                    </p>
+                    </div>
                 </div>
             </div>
             <div className="row" id="Skills">
